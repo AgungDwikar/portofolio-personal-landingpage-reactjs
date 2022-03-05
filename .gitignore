@@ -3,6 +3,7 @@
 # page
 .pages
 /pages
+/views
 
 # dependencies
 /node_modules
