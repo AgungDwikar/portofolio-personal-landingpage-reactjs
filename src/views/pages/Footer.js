@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -179,11 +180,20 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
+
                     <div className="md:max-w-md lg:col-span-2">
+                        <Link to="/">
+                            <span className="sr-only">codeid</span>
+                            <img
+                                className="h-8 w-auto sm:h-10 bg-white rounded mb-2"
+                                src="./images/logo10agung.png"
+                                alt="codeid"
+                            />
+                        </Link>
                         <span className="text-base font-medium tracking-wide text-gray-300">
                             Subscribe for updates
                         </span>
-                        <form className="flex flex-col mt-4 md:flex-row">
+                        <form className="flex flex-col mt-2 md:flex-row">
                             <input
                                 placeholder="Email"
                                 required

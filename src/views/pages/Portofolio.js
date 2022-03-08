@@ -1,5 +1,6 @@
 import React from "react";
 import "./Page.css";
+import { ArrowRightIcon } from "@heroicons/react/solid";
 
 function Portofolio() {
     return (
@@ -9,14 +10,14 @@ function Portofolio() {
                 <h2 className="section-title-02">Portofolio</h2>
             </div>
             <div className="mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <div className="max-w-sm  overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
                     <img
                         className="object-cover object-center w-full h-56"
                         src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
                         alt="avatar"
                     />
 
-                    <div className="flex items-center px-6 py-3 bg-gray-900">
+                    <div className="flex items-center px-6 py-3 bg-[#363333]">
                         <svg
                             className="w-6 h-6 text-white fill-current"
                             viewBox="0 0 24 24"
@@ -31,19 +32,14 @@ function Portofolio() {
                         </svg>
 
                         <h1 className="mx-3 text-lg font-semibold text-white">
-                            Focusing
+                            Backend Hr Bootcamp
                         </h1>
                     </div>
 
                     <div className="px-6 py-4">
                         <h1 className="text-xl font-semibold text-gray-800 dark:text-white">
-                            Patterson johnson
+                            Project Bootcamp (team work)
                         </h1>
-
-                        <p className="py-2 text-gray-700 dark:text-gray-400">
-                            Full Stack maker & UI / UX Designer , love hip hop
-                            music Author of Building UI.
-                        </p>
 
                         <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
                             <svg
@@ -103,16 +99,20 @@ function Portofolio() {
                                 patterson@example.com
                             </h1>
                         </div>
+                    </div>
+                    <div className=" flex text-[#FF5722] cursor-pointer mt-4 px-6 text-end justify-end items-end">
+                        <p className="mb-3"> See more </p>
+                        <ArrowRightIcon className="w-4 justify-center ml-2 items-baseline top-0 mb-4  " />
                     </div>
                 </div>
-                <div className="max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <div className="max-w-sm overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
                     <img
                         className="object-cover object-center w-full h-56"
                         src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
                         alt="avatar"
                     />
 
-                    <div className="flex items-center px-6 py-3 bg-gray-900">
+                    <div className="flex items-center px-6 py-3 bg-[#363333]">
                         <svg
                             className="w-6 h-6 text-white fill-current"
                             viewBox="0 0 24 24"
@@ -127,19 +127,14 @@ function Portofolio() {
                         </svg>
 
                         <h1 className="mx-3 text-lg font-semibold text-white">
-                            Focusing
+                            Frontend Hr Bootcamp
                         </h1>
                     </div>
 
                     <div className="px-6 py-4">
                         <h1 className="text-xl font-semibold text-gray-800 dark:text-white">
-                            Patterson johnson
+                            Project Bootcamp (team work)
                         </h1>
-
-                        <p className="py-2 text-gray-700 dark:text-gray-400">
-                            Full Stack maker & UI / UX Designer , love hip hop
-                            music Author of Building UI.
-                        </p>
 
                         <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
                             <svg
@@ -199,16 +194,20 @@ function Portofolio() {
                                 patterson@example.com
                             </h1>
                         </div>
+                    </div>
+                    <div className=" flex text-[#FF5722] cursor-pointer mt-4 px-6 text-end justify-end items-end">
+                        <p className=" mb-3"> See more </p>
+                        <ArrowRightIcon className="w-4 justify-center ml-2 items-baseline top-0 mb-4  " />
                     </div>
                 </div>
-                <div className="max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <div className="max-w-sm  overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
                     <img
                         className="object-cover object-center w-full h-56"
                         src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
                         alt="avatar"
                     />
 
-                    <div className="flex items-center px-6 py-3 bg-gray-900">
+                    <div className="flex items-center px-6 py-3 bg-[#363333]">
                         <svg
                             className="w-6 h-6 text-white fill-current"
                             viewBox="0 0 24 24"
@@ -223,19 +222,16 @@ function Portofolio() {
                         </svg>
 
                         <h1 className="mx-3 text-lg font-semibold text-white">
-                            Focusing
+                            Database Hr Bootcamp
                         </h1>
                     </div>
 
                     <div className="px-6 py-4">
                         <h1 className="text-xl font-semibold text-gray-800 dark:text-white">
-                            Patterson johnson
+                            Project Bootcamp (team work)
                         </h1>
 
-                        <p className="py-2 text-gray-700 dark:text-gray-400">
-                            Full Stack maker & UI / UX Designer , love hip hop
-                            music Author of Building UI.
-                        </p>
+                      
 
                         <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
                             <svg
@@ -294,8 +290,15 @@ function Portofolio() {
                             <h1 className="px-2 text-sm">
                                 patterson@example.com
                             </h1>
+                            
                         </div>
+                        
                     </div>
+                    <div className=" flex text-[#FF5722] cursor-pointer mt-4 px-6 text-end justify-end items-end">
+                        <p className="mb-3"> See more </p>
+                        <ArrowRightIcon className="w-4 justify-center ml-2 items-baseline mb-4 " />
+                    </div>
+                    
                 </div>
             </div>
         </div>

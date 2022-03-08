@@ -10,6 +10,11 @@ function Education() {
             </div>
             <div className="mt-12 grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
                 <div className=" ">
+                    <div className="bg-[#FF5722] pb-1  w-[30%]">
+                        <p className="text-white bg-[#0E0B0C] text-center">
+                            Education
+                        </p>
+                    </div>
                     <ul className="edu-list">
                         <li className="item">
                             <span className="year"> 2017-2021 </span>
@@ -42,6 +47,11 @@ function Education() {
                     </ul>
                 </div>
                 <div className="">
+                    <div className="bg-[#FF5722] pb-1 w-[30%] ">
+                        <p className="text-white bg-[#0E0B0C] text-center ">
+                            List Skills
+                        </p>
+                    </div>
                     <div className=" text-[#FFFFFF]">
                         <ul className="bars mt-4">
                             <li className="bar">
@@ -100,6 +110,11 @@ function Education() {
                     </div>
                 </div>
                 <div className="">
+                    <div className="bg-[#FF5722] pb-1 w-[30%] ">
+                        <p className="text-white bg-[#0E0B0C] text-center ">
+                            Certification
+                        </p>
+                    </div>
                     <ul className="edu-list">
                         <li className="item">
                             <span className="year">

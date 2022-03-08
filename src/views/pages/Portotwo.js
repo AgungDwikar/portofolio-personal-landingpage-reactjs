@@ -24,7 +24,7 @@ function Portotwo() {
                 </svg>
 
                 <h1 className="mx-3 text-lg font-semibold text-white">
-                    Focusing
+                    Hr Bootcamp
                 </h1>
             </div>
 
