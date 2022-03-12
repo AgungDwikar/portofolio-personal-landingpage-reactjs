@@ -8,6 +8,30 @@ function Portofolio() {
             <div className="text-center items-center justify-center mb-[-80px] text-[#FFFFFF] ">
                 <h1 className="section-title-01">Portofolio</h1>
                 <h2 className="section-title-02">Portofolio</h2>
+                <span className="relative inline-block right-0 justify-end items-end ml-[500px] ">
+                    <svg
+                        viewBox="0 0 52 24"
+                        fill="currentColor"
+                        className="absolute top-0 left-0 hidden w-32 mt-8 ml-20 text-[#2e2c2c] lg:w-32 lg:-ml-28 lg:-mt-[130px] sm:block "
+                    >
+                        <defs>
+                            <pattern
+                                id="700c93bf-0068-4e32-aafe-ef5b6a647708"
+                                x="0"
+                                y="0"
+                                width=".135"
+                                height=".30"
+                            >
+                                <circle cx="1" cy="1" r=".7" />
+                            </pattern>
+                        </defs>
+                        <rect
+                            fill="url(#700c93bf-0068-4e32-aafe-ef5b6a647708)"
+                            width="52"
+                            height="24"
+                        />
+                    </svg>
+                </span>
             </div>
             <div className="mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="max-w-sm  overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
@@ -98,6 +122,46 @@ function Portofolio() {
                             <h1 className="px-2 text-sm">
                                 patterson@example.com
                             </h1>
+                        </div>
+                    </div>
+                    <div className="flex flex-col px-8">
+                        <div className="flex -space-x-1">
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/nodejs.png"
+                                alt="img2"
+                                width="100%"
+                            />
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/js.jpg"
+                                alt="img3"
+                                width="100%"
+                            />
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/post.png"
+                                alt="img4"
+                                width="100%"
+                            />
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/seq.png"
+                                alt="img4"
+                                width="100%"
+                            />
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/api.png"
+                                alt="img4"
+                                width="100%"
+                            />
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/postt.jpg"
+                                alt="img4"
+                                width="100%"
+                            />
                         </div>
                     </div>
                     <div className=" flex text-[#FF5722] cursor-pointer mt-4 px-6 text-end justify-end items-end">
@@ -195,6 +259,34 @@ function Portofolio() {
                             </h1>
                         </div>
                     </div>
+                    <div className="flex flex-col px-8">
+                        <div className="flex -space-x-1">
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/react.png"
+                                alt="img2"
+                                width="100%"
+                            />
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/js.jpg"
+                                alt="img3"
+                                width="100%"
+                            />
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/redux.png"
+                                alt="img4"
+                                width="100%"
+                            />
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/tail.png"
+                                alt="img4"
+                                width="100%"
+                            />
+                        </div>
+                    </div>
                     <div className=" flex text-[#FF5722] cursor-pointer mt-4 px-6 text-end justify-end items-end">
                         <p className=" mb-3"> See more </p>
                         <ArrowRightIcon className="w-4 justify-center ml-2 items-baseline top-0 mb-4  " />
@@ -230,8 +322,6 @@ function Portofolio() {
                         <h1 className="text-xl font-semibold text-gray-800 dark:text-white">
                             Project Bootcamp (team work)
                         </h1>
-
-                      
 
                         <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
                             <svg
@@ -290,15 +380,28 @@ function Portofolio() {
                             <h1 className="px-2 text-sm">
                                 patterson@example.com
                             </h1>
-                            
                         </div>
-                        
+                    </div>
+                    <div className="flex flex-col px-8">
+                        <div className="flex -space-x-1">
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/post.png"
+                                alt="img2"
+                                width="100%"
+                            />
+                            <img
+                                className="w-9 h-9 border rounded-full dark:bg-coolGray-500 dark:border-coolGray-700"
+                                src="./images/seq.png"
+                                alt="img3"
+                                width="100%"
+                            />
+                        </div>
                     </div>
                     <div className=" flex text-[#FF5722] cursor-pointer mt-4 px-6 text-end justify-end items-end">
                         <p className="mb-3"> See more </p>
                         <ArrowRightIcon className="w-4 justify-center ml-2 items-baseline mb-4 " />
                     </div>
-                    
                 </div>
             </div>
         </div>

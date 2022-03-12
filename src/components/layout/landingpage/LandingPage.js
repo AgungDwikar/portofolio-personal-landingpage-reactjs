@@ -8,6 +8,7 @@ import Footer from "../../../views/pages/Footer";
 import Herotwo from "../../../views/pages/Herotwo";
 import Navbar from "../../../views/pages/Navbar";
 import Portofolio from "../../../views/pages/Portofolio";
+import UpBtn from "../../../views/pages/UpBtn";
 
 function LandingPage() {
     return (
@@ -20,6 +21,7 @@ function LandingPage() {
 
             <Navbar />
             <Herotwo />
+            <UpBtn />
             <Benefits />
             <Education />
             <Portofolio />

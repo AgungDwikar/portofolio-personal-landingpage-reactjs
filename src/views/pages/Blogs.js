@@ -6,16 +6,42 @@ function Blogs() {
     return (
         <div className=" container mt-28 flex-col items-center">
             <div className="text-center items-center justify-center mb-[-80px] text-[#FFFFFF] ">
-                <h1 className="section-title-01">My Blog</h1>
-                <h2 className="section-title-02">My Blog</h2>
+                <h1 className="section-title-01">Blog</h1>
+                <h2 className="section-title-02">Blog</h2>
+            </div>
+            <div>
+                <span className="relative inline-block right-0 justify-end items-end ml-[50px] ">
+                    <svg
+                        viewBox="0 0 52 24"
+                        fill="currentColor"
+                        className="absolute top-0 left-0 hidden w-32 -mt-8 -ml-20 text-[#2e2c2c] lg:w-32 lg:-ml-28 lg:-mt-1 sm:block"
+                    >
+                        <defs>
+                            <pattern
+                                id="700c93bf-0068-4e32-aafe-ef5b6a647708"
+                                x="0"
+                                y="0"
+                                width=".135"
+                                height=".30"
+                            >
+                                <circle cx="1" cy="1" r=".7" />
+                            </pattern>
+                        </defs>
+                        <rect
+                            fill="url(#700c93bf-0068-4e32-aafe-ef5b6a647708)"
+                            width="52"
+                            height="24"
+                        />
+                    </svg>
+                </span>
             </div>
 
-            <div className="mt-10 grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+            <div className="mt-10 grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full relative ">
                 <div className="overflow-hidden transition-shadow duration-300 bg-white rounded-lg">
                     <a href="/" aria-label="Article">
                         <img
                             src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-                            className="object-cover w-full h-64 rounded"
+                            className="object-cover w-full h-64 rounded z-20"
                             alt=""
                         />
                     </a>
@@ -101,7 +127,7 @@ function Blogs() {
                                 </div>
                                 <p className="font-semibold">81</p>
                                 <div className=" ml-3 flex text-[#FF5722]">
-                                    <p className=" "> Read more </p>
+                                    <p className=" "> Read More </p>
                                     <ArrowRightIcon className="w-4 justify-center ml-2 items-baseline top-0 animate-bounce-[{left}] " />
                                 </div>
                             </a>

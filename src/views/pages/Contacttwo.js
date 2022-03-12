@@ -9,7 +9,7 @@ function Contacttwo() {
                 <h2 className="section-title-02">Contact</h2>
             </div>
             <section className="container text-gray-600 body-font relative mt-10 rounded-lg">
-                <div className="container absolute inset-0 rounded-lg ">
+                <div className="container absolute inset-0 rounded-lg z-20 ">
                     <iframe
                         width="100%"
                         height="100%"
@@ -21,8 +21,34 @@ function Contacttwo() {
                         src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
                     ></iframe>
                 </div>
+                <div>
+                    <span className="relative inline-block right-0 justify-end items-end ml-[50px] z-10 ">
+                        <svg
+                            viewBox="0 0 52 24"
+                            fill="currentColor"
+                            className="absolute top-0 left-0 hidden w-32 -mt-8 -ml-20 text-white lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                        >
+                            <defs>
+                                <pattern
+                                    id="700c93bf-0068-4e32-aafe-ef5b6a647708"
+                                    x="0"
+                                    y="0"
+                                    width=".135"
+                                    height=".30"
+                                >
+                                    <circle cx="1" cy="1" r=".7" />
+                                </pattern>
+                            </defs>
+                            <rect
+                                fill="url(#700c93bf-0068-4e32-aafe-ef5b6a647708)"
+                                width="52"
+                                height="24"
+                            />
+                        </svg>
+                    </span>
+                </div>
                 <div className="container px-5 py-16 mx-auto flex">
-                    <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                    <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-20 shadow-md">
                         <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
                             Feedback
                         </h2>
