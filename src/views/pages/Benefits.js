@@ -5,7 +5,12 @@ import { DownloadIcon } from "@heroicons/react/solid";
 
 function Benefits() {
     return (
-        <section className="container mt-21 space-y-24  " id="about">
+        <section
+            className="container mt-21 space-y-24"
+            id="about"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+        >
             <div className="text-center items-center justify-center mb-[-120px] text-[#FFFFFF] ">
                 <h1 className="section-title-01">About</h1>
                 <h2 className="section-title-02 ">About</h2>

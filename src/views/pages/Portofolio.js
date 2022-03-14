@@ -4,7 +4,12 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 
 function Portofolio() {
     return (
-        <div className=" container mt-28 flex-col items-center   ">
+        <div
+            className=" container mt-28 flex-col items-center   "
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="1500"
+        >
             <div className="text-center items-center justify-center mb-[-80px] text-[#FFFFFF] ">
                 <h1 className="section-title-01">Portofolio</h1>
                 <h2 className="section-title-02">Portofolio</h2>

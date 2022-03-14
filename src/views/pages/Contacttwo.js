@@ -8,7 +8,11 @@ function Contacttwo() {
                 <h1 className="section-title-01">Contact</h1>
                 <h2 className="section-title-02">Contact</h2>
             </div>
-            <section className="container text-gray-600 body-font relative mt-10 rounded-lg">
+            <section
+                className="container text-gray-600 body-font relative mt-10 rounded-lg"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+            >
                 <div className="container absolute inset-0 rounded-lg z-20 ">
                     <iframe
                         width="100%"
@@ -18,7 +22,7 @@ function Contacttwo() {
                         marginWidth="0"
                         title="map"
                         scrolling="no"
-                        src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.4330524661445!2d106.77948311458931!3d-6.337913095413426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ee576ff0da65%3A0x6da9af7de68339e!2sGg.%20Pulo%2C%20Cinere%2C%20Kec.%20Cinere%2C%20Kota%20Depok%2C%20Jawa%20Barat%2016514!5e0!3m2!1sen!2sid!4v1647228771610!5m2!1sen!2sid"
                     ></iframe>
                 </div>
                 <div>

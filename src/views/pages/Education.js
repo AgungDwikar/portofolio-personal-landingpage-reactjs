@@ -31,10 +31,15 @@ function Education() {
             <div className="text-center items-center justify-center mb-[-80px] text-[#FFFFFF] ">
                 <h1 className="section-title-01">Skills</h1>
                 <h2 className="section-title-02">Skills</h2>
-                
             </div>
             <div className="mt-12 grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
-                <div className=" ">
+                <div
+                    className=" "
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1000"
+                >
                     <div className="bg-[#FF5722] pb-1  w-[30%]">
                         <p className="text-white bg-[#0E0B0C] text-center">
                             Education
@@ -71,7 +76,13 @@ function Education() {
                         </li>
                     </ul>
                 </div>
-                <div className="">
+                <div
+                    className=""
+                    data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1000"
+                >
                     <div className="bg-[#FF5722] pb-1 w-[30%] ">
                         <p className="text-white bg-[#0E0B0C] text-center ">
                             List Skills
@@ -134,7 +145,13 @@ function Education() {
                         </ul>
                     </div>
                 </div>
-                <div className="">
+                <div
+                    className=""
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1000"
+                >
                     <div className="bg-[#FF5722] pb-1 w-[30%] ">
                         <p className="text-white bg-[#0E0B0C] text-center ">
                             Certification
@@ -178,7 +195,11 @@ function Education() {
                     </ul>
                 </div>
             </div>
-            <div className="text-center container  ">
+            <div
+                className="text-center container  "
+                data-aos="fade-up"
+                data-aos-duration="1500"
+            >
                 <h1 className="mt-20 font-bold text-2xl text-[#FFFFFF]  ">
                     Work Experience
                 </h1>
@@ -190,7 +211,11 @@ function Education() {
                     ratione earum.
                 </p>
             </div>
-            <div className="mt-8 grid sm:grid-cols-1 lg:grid-cols-3 gap-8 text-[#FFFFFF] ">
+            <div
+                className="mt-8 grid sm:grid-cols-1 lg:grid-cols-3 gap-8 text-[#FFFFFF] "
+                data-aos="fade-up"
+                data-aos-duration="1500"
+            >
                 <div className="">
                     <div className="experience-card">
                         <div className="upper">

@@ -80,7 +80,7 @@ function Herotwo() {
                         </p>
                     </div>
                     <div className="ml-12 flex items-baseline">
-                        <Link to="/app">
+                        <Link to="/dashboard">
                             <button className="third-button flex  ">
                                 Dashboard
                                 <FiLogIn className="w-6 ml-1 mt-1 " />

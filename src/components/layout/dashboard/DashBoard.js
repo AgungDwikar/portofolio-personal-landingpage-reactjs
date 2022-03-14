@@ -3,7 +3,7 @@ import SideBar from "../../sidebar/SideBar";
 
 function DashBoard() {
     return (
-        <div>
+        <div className=" bg-orange-400">
             <SideBar />
         </div>
     );
