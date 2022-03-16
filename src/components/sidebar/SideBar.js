@@ -11,8 +11,6 @@ import {
     FaLayerGroup,
 } from "react-icons/fa";
 import { BiLogOut } from "react-icons/bi";
-import axios from "axios";
-import { data } from "autoprefixer";
 
 const routes = [
     {
@@ -41,7 +39,7 @@ const routes = [
     },
     {
         path: "/dashboard/komponentui",
-        name: "komponent ui",
+        name: "Self HandBook",
         icon: <FaLayerGroup />,
         current: false,
     },
@@ -84,7 +82,7 @@ const kataSelection = () => {
     return sayKata;
 };
 const getDayNow = () => {
-    let tanggalLengkap = new String();
+    let tanggalLengkap = "";
     let harian = "Minggu Senin Selasa Rabu Kamis Jumat Sabtu";
     harian = harian.split(" ");
     var namabulan =
@@ -100,10 +98,30 @@ const getDayNow = () => {
     return tanggalLengkap;
 };
 
+// const getTimeNow = () => {
+//     const jam = new Date().getHours();
+//     const menit = new Date().getMinutes();
+//     let semuaJam;
+
+//     semuaJam = `${jam} : ${menit}`;
+
+//     return semuaJam;
+// };
+
 function SideBar() {
     const [isOpen, setisOpen] = useState(false);
 
     const toggle = () => setisOpen(!isOpen);
+
+    let time = new Date().toLocaleTimeString();
+
+    const [ctime, setCtime] = useState(time);
+
+    const UpdateTime = () => {
+        time = new Date().toLocaleTimeString();
+        setCtime(time);
+    };
+    setInterval(UpdateTime, 1000);
 
     const showAnimation = {
         hidden: {
@@ -122,27 +140,14 @@ function SideBar() {
             },
         },
     };
-    const [data, setData] = useState({});
-    const [location, setLocation] = useState("");
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=-6.33609&lon=106.788342&appid=d7d4e7eec1f425d3d64c298c5439e07e`;
-
-    const searchLocation = (event) => {
-        if (event.key === "Enter") {
-            axios.get(url).then((response) => {
-                setData(response.data);
-                console.log(response.data);
-            });
-            setLocation("");
-        }
-    };
     return (
-        <div className=" m-0 p-0 box-border flex">
+        <div className=" m-0 p-0 box-border flex bg-slate-600">
             <motion.div
                 animate={{ width: isOpen ? "200px" : "40px" }}
                 className=" bg-[#0E0B0C] text-[#ffffff] h-[100vh] "
             >
-                <div className="flex items-center justify-between px-[10px] py-[10px]">
+                <div className="flex items-center justify-between px-[10px] py-[10px] bg-slate-500">
                     <AnimatePresence>
                         {isOpen && (
                             <motion.h1
@@ -150,9 +155,9 @@ function SideBar() {
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
-                                className="logo"
+                                className="logo font-semibold"
                             >
-                                DoSomeCoding
+                                Dashboard
                             </motion.h1>
                         )}
                         <div className="bars">
@@ -189,6 +194,9 @@ function SideBar() {
                             >
                                 <p className="py-1 px-2">
                                     Agung Dwika Rudiyanto
+                                </p>
+                                <p className="py-1 px-3">
+                                    Junior Web Developer
                                 </p>
                             </motion.div>
                         ) : (
@@ -239,14 +247,14 @@ function SideBar() {
                 </section>
                 <Link to="/">
                     {isOpen === true ? (
-                        <div className="px-[5px] mt-[160px]">
+                        <div className="px-[5px] mt-[128px]">
                             <div className=" bg-[#141313] w-full h-8 rounded-md text-center flex   ">
                                 <BiLogOut className="w-6 ml-1 mt-2 font-extrabold " />
                                 <p className=" px-1 py-1">Back To Home</p>
                             </div>
                         </div>
                     ) : (
-                        <div className="px-[5px] mt-[160px]">
+                        <div className="px-[5px] mt-[158px]">
                             <div className=" bg-[#141313] w-full h-8 rounded-md text-center flex   ">
                                 <BiLogOut className="w-6 ml-1 mt-2 font-extrabold " />
                             </div>
@@ -260,7 +268,7 @@ function SideBar() {
                     <div
                         className="
                     w-full
-                    bg-[#34D399] bg-opacity-[15%]
+                    bg-slate-500 
                     px-7
                     py-8
                     md:p-9
@@ -283,7 +291,7 @@ function SideBar() {
                     <div
                         className="
                     w-full
-                    bg-[#34D399] bg-opacity-[15%]
+                    bg-slate-500
                     px-7
                     py-8
                     md:p-9
@@ -305,7 +313,7 @@ function SideBar() {
                     <div
                         className="
                     w-full
-                    bg-[#34D399] bg-opacity-[15%]
+                    bg-slate-500
                     px-7
                     py-8
                     md:p-9
@@ -317,26 +325,10 @@ function SideBar() {
                     >
                         <div className="w-full">
                             <div>
-                                <label>Input Location : </label>
-                                <input
-                                    value={location}
-                                    onChange={(event) =>
-                                        setLocation(event.target.value)
-                                    }
-                                    onKeyPress={searchLocation}
-                                    placeholder="search location..."
-                                    type="text"
-                                    className=" rounded-md"
-                                />
+                                <h1 className=" font-light text-2xl items-center justify-center text-center py-6 text-[50px]">
+                                    {ctime}
+                                </h1>
                             </div>
-                            <h5 className="text-lg font-semibold mb-1 text-dark">
-                                {data.name}
-                            </h5>
-                            {data.main ? (
-                                <p className="text-base text-body-color leading-relaxed">
-                                    {data.main.temp}
-                                </p>
-                            ) : null}
                         </div>
                     </div>
                 </div>
