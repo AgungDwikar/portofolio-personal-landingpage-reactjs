@@ -177,9 +177,13 @@ function SideBar() {
                 </div>
                 <div className="flex  px-[5px] py-[10px] justify-center items-center">
                     {isOpen ? (
-                        <div className="mt-[50px] bg-red-500 w-[150px] h-[150px] rounded-full" />
+                        <div className="mt-[50px] bg-red-500 w-[150px] h-[150px] rounded-full" >
+                            <img src="./images/agungprofile.jpg" alt="" className=" rounded-full w-[150px] h-[150px]"   />
+                        </div>
                     ) : (
-                        <div className="mt-[185px] bg-red-500 w-[40px] h-[30px] rounded-full" />
+                        <div className="mt-[185px] bg-red-500 w-[40px] h-[30px] rounded-full">
+                            <img src="./images/agungprofile.jpg" alt="" className=" rounded-full w-[40px] h-[30px] "   />
+                        </div>
                     )}
                 </div>
                 <div className="flex items-center gap-[10px] px-[10px] py-[10px] ">

@@ -1,33 +1,31 @@
 import React from "react";
-import Banner from "../../../views/pages/Banner";
-import Benefits from "../../../views/pages/Benefits";
-import Blogs from "../../../views/pages/Blogs";
-import Contacttwo from "../../../views/pages/Contacttwo";
-import Education from "../../../views/pages/Education";
-import Footer from "../../../views/pages/Footer";
-import Herotwo from "../../../views/pages/Herotwo";
-import Navbar from "../../../views/pages/Navbar";
-import Portofolio from "../../../views/pages/Portofolio";
-import UpBtn from "../../../views/pages/UpBtn";
+import Benefits from "../../aboutme/Benefits";
+import Landing from "../../landing/Landing";
+import Education from "../../education/Education";
+import Skills from "../../Skills/Skills";
+import Experience from "../../Experience/Experience";
+import Projects from "../../Projects/Projects";
+import Blogs from "../../Blogs/Blogs";
+import Banners from "../../Banner/Banners";
+import ContactMe from "../../GetContact/ContactMe";
+import UpBtn from "../../BtnToTop/UpBtn";
+import Navbar from "../../Navbar/Navbar";
+import Footer from "../../Footer/Footer";
 
 function LandingPage() {
     return (
-        <div className=" bg-[#0E0B0C] scroll-smooth ">
-            {/* <img
-                src="./images/imgnih.png"
-                alt="img"
-                className="w-full bg-cover absolute mt-28 flex sm:h-[500px]"
-            /> */}
-
+        <div className=" bg-[#222831] scroll-smooth ">
             <Navbar />
-            <Herotwo />
+            <Landing />
             <UpBtn />
             <Benefits />
             <Education />
-            <Portofolio />
-            <Banner />
+            <Skills />
+            <Experience />
+            <Projects />
             <Blogs />
-            <Contacttwo />
+            <Banners />
+            <ContactMe />
             <Footer />
         </div>
     );
