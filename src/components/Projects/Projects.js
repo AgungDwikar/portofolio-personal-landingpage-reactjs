@@ -11,7 +11,12 @@ function Projects() {
     return (
         <>
             {projectsData.length > 0 && (
-                <div className="projects  " id="projects">
+                <div
+                    className="projects  "
+                    id="projects"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                >
                     <div className="text-center items-center justify-center mb-[-220px] text-white ">
                         <h1 className="section-title-01">Projects</h1>
                         <h2 className="section-title-02 ">Projects</h2>
@@ -34,7 +39,10 @@ function Projects() {
                         </div>
 
                         {projectsData.length > 3 && (
-                            <div className="projects--viewAll ">
+                            <div
+                                className="projects--viewAll "
+                                data-aos="fade-right"
+                            >
                                 <Link to="/projects">
                                     <button className=" bg-[#de643c] p-4 text-white">
                                         View All

@@ -9,7 +9,11 @@ function Education() {
             </div>
             <div className="container px-5 py-24 mx-auto flex flex-wrap mt-11">
                 <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-                    <div className="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl hover:bg-[#e24a1b]">
+                    <div
+                        className="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl hover:bg-[#e24a1b]"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
                         <div className=" flex ">
                             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                                 <svg
@@ -43,7 +47,11 @@ function Education() {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl">
+                    <div
+                        className="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl"
+                        data-aos="fade-up"
+                        data-aos-duration="2000"
+                    >
                         <div className="flex">
                             <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                                 <svg
@@ -78,7 +86,11 @@ function Education() {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl">
+                    <div
+                        className="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl"
+                        data-aos="fade-up"
+                        data-aos-duration="3000"
+                    >
                         <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                             <svg
                                 fill="none"

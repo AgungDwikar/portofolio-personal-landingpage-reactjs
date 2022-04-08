@@ -16,7 +16,11 @@ function Experience() {
                     />
                 </div>
                 <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-                    <div class="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl hover:bg-[#e24a1b]">
+                    <div
+                        class="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl hover:bg-[#e24a1b]"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
                         <div className=" flex ">
                             <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                                 <svg
@@ -50,7 +54,11 @@ function Experience() {
                             </p>
                         </div>
                     </div>
-                    <div class="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl">
+                    <div
+                        class="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl"
+                        data-aos="fade-up"
+                        data-aos-duration="2000"
+                    >
                         <div className="flex">
                             <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                                 <svg
@@ -85,7 +93,11 @@ function Experience() {
                             </p>
                         </div>
                     </div>
-                    <div class="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl">
+                    <div
+                        class="flex flex-col mb-4 lg:items-start items-center bg-[#D65A31] p-2 rounded-2xl"
+                        data-aos="fade-up"
+                        data-aos-duration="3000"
+                    >
                         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
                             <svg
                                 fill="none"

@@ -76,6 +76,54 @@
     opacity: 0.8;
 }
 
+.card {
+    border-radius: 15px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    height: 68px;
+    margin-bottom: 140px;
+    overflow: hidden;
+    margin-right: 50px;
+    position: absolute;
+    width: 220px;
+}
+
+.card:before {
+    background-color: rgb(225, 210, 187);
+    backdrop-filter: blur(2px) saturate(100%) contrast(45%) brightness(130%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.card2 {
+    border-radius: 15px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    height: 68px;
+    margin-bottom: 220px;
+    margin-left: 280px;
+    overflow: hidden;
+    position: absolute;
+    width: 220px;
+}
+
+.card2:before {
+    background-color: rgba(187, 206, 225, 0.43);
+    backdrop-filter: blur(2px) saturate(100%) contrast(45%) brightness(130%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.card__text {
+    color: #6f7886;
+    margin-left: 30px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;
+}
+
 .lcr--content h1 {
     font-weight: 600;
     font-size: 3.25rem;

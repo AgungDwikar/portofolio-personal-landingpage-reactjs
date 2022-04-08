@@ -80,12 +80,26 @@ function Landing() {
                             </a>
                         )}
                     </div>
+                    <div className="card2 z-30 lg:block sm:hidden  ">
+                        <div className=" h-6 w-6 ml-2 mt-2 rounded-full bg-[#de3f20] absolute animate-pulse">
+
+                        </div>
+                        <h1 className=" justify-center items-center text-center flex px-2 py-5 z-50 relative text-gray-900 text-lg font-semibold">
+                            Never Give Up
+                        </h1>
+                    </div>
                 </div>
+
                 <img
                     src={headerData.image}
                     alt=""
                     className="landing--img border-r-teal-400"
                 />
+                {/* <div className="card  ">
+                    <h1 className=" justify-center items-center text-center flex px-2 py-5  z-50 relative text-gray-900 text-lg font-semibold">
+                        keep learning
+                    </h1>
+                </div> */}
                 <div className="landing--container-right bg-[#222831] ">
                     <div className="lcr--content text-white">
                         <h6>{headerData.title}</h6>

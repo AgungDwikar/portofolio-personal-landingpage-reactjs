@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
-import "./Blogs.css"
+import "./Blogs.css";
 
 function Blogs() {
     return (
-        <section className="pt-20 lg:pt-[120px] pb-10 lg:pb-20">
+        <section
+            className="pt-20 lg:pt-[120px] pb-10 lg:pb-20"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+        >
             <div className="text-center items-center justify-center mb-[-220px] text-white ">
                 <h1 className="section-title-01">Blogs</h1>
                 <h2 className="section-title-02 ">Blogs</h2>
@@ -192,7 +196,10 @@ function Blogs() {
             </div>
             <div className="viewalls sm:justify-center items-center">
                 <Link to="/projects">
-                    <button className=" bg-[#de643c] p-4 text-white">
+                    <button
+                        className=" bg-[#de643c] p-4 text-white"
+                        data-aos="fade-right"
+                    >
                         View All
                         <HiArrowRight className=" bg-slate-900 text-white w-8 h-8 rounded-full" />
                     </button>

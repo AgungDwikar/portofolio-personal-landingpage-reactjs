@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { Link as Scroll } from "react-scroll/modules";
 
 export default function Navbar() {
@@ -9,7 +8,7 @@ export default function Navbar() {
             <div className="px-4 py-5 mx-auto sm:max-w-2xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
                 <div className="relative flex items-center justify-between">
                     <div className="flex items-center">
-                        <h1 className=" font-semibold">PORTOFOLIO</h1>
+                        <h1 className=" font-semibold">PORTFOLIO</h1>
                     </div>
 
                     <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -44,7 +43,7 @@ export default function Navbar() {
                                 title="Product pricing"
                                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-teal-accent-400 hover:text-[#D65A31]"
                             >
-                                Portofolio
+                                Portfolio
                             </a>
                         </li>
                         <li>
